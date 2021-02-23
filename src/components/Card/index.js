@@ -16,8 +16,7 @@ const Example = (props) => {
 
   async function data() {
     const response = await axios.get('https://api.covid19api.com/dayone/country/brazil')
-    console.log('COVID', response.data);
-    setCovid(response.data)
+    setCovid(response.data);
   }
   return (
     <div style={{ backgroundColor: 'black' }}>
