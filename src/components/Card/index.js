@@ -21,7 +21,7 @@ const Example = (props) => {
   }
   return (
     <div style={{ backgroundColor: 'black' }}>
-      <h1 style={{ textAlign: 'center', color: 'white' }}>Total de casos: {covid.length}</h1>
+      <h1 style={{ textAlign: 'center', color: 'white' }}>Total de Casos: {covid.length}</h1>
       <div class="row">
         {covid.map((item) => {
           return (
